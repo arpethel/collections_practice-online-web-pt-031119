@@ -24,8 +24,11 @@ end
 def kesha_maker(strings)
   kesha = []
   strings.each_with_index do |ele, idx|
-    i = 0
-    binding.pry
+    if idx == 2
+      binding.pry
+      ele[2] = '$'
+    end
+    
     # while idx == 2 && i < strings.length
     #   ele[idx] = "$"
     #   kesha << ele
