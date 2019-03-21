@@ -28,7 +28,7 @@ def kesha_maker(strings)
       binding.pry
       ele[2] = '$'
     end
-    
+
     # while idx == 2 && i < strings.length
     #   ele[idx] = "$"
     #   kesha << ele
