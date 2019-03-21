@@ -25,7 +25,7 @@ def kesha_maker(strings)
   kesha = []
   strings.each_with_index do |ele, idx|
     if idx == 2
-      binding.pry
+      # binding.pry
       ele[2] = '$'
       kesha << ele
     end
