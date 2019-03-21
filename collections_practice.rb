@@ -30,6 +30,7 @@ end
 def find_a(array)
   array.each.collect do |word|
     if word.start_with?("a")
+      binding.pry
       word
     end
   end
