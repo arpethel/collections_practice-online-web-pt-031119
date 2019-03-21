@@ -23,12 +23,8 @@ end
 
 def kesha_maker(strings)
   kesha = []
-  strings.each_with_index do |ele, idx|
-    if idx == 2
-      # binding.pry
+  strings.each do |ele|
       ele[2] = '$'
-      kesha << ele
-    end
 
     # while idx == 2 && i < strings.length
     #   ele[idx] = "$"
@@ -36,7 +32,7 @@ def kesha_maker(strings)
     #   i += 1
     # end
   end
-  kesha
+  # kesha
 end
 
 
