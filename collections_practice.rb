@@ -22,17 +22,9 @@ def reverse_array(array)
 end
 
 def kesha_maker(strings)
-  kesha = []
   strings.each do |ele|
       ele[2] = '$'
-
-    # while idx == 2 && i < strings.length
-    #   ele[idx] = "$"
-    #   kesha << ele
-    #   i += 1
-    # end
   end
-  # kesha
 end
 
 
