@@ -27,6 +27,7 @@ def kesha_maker(strings)
     if idx == 2
       binding.pry
       ele[2] = '$'
+      kesha << ele
     end
 
     # while idx == 2 && i < strings.length
@@ -35,7 +36,7 @@ def kesha_maker(strings)
     #   i += 1
     # end
   end
-  # kesha
+  kesha
 end
 
 
